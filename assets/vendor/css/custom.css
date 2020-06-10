@@ -1,0 +1,309 @@
+:root {
+  --grey1: #d3d3d3;
+  --grey2: #40444b;
+
+  --blue1: #6881d7;
+  --blue2: #7289da;
+
+  --dark1: #36393f;
+  --dark2: #2f3136;
+  --dark3: #292b2f;
+  --dark4: #202225;
+
+  --green: #5cb85c;
+  --red: #d9534f;
+}
+
+body,
+html,
+.dt-page--container {
+  background-color: var(--dark1);
+  color: var(--grey1);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::selection {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.swal2-container.swal2-shown {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.swal2-popup {
+  background-color: var(--dark);
+}
+
+.swal2-icon.swal2-question {
+  border-color: white;
+  color: white;
+}
+
+.swal2-popup .swal2-title {
+  color: white;
+}
+
+.swal2-popup .swal2-content {
+  margin: 0 10rem;
+}
+
+.swal2-popup .swal2-actions {
+  margin: 2rem 0;
+}
+
+.swal2-popup .swal2-styled.swal2-confirm {
+  background-color: var(--pink);
+}
+
+.card-body > img {
+  width: 100%;
+}
+
+.dt-side-nav__header:not(:first-child):before {
+  background-color: var(--dark1);
+}
+
+.dt-side-nav__item.selected {
+  background-color: transparent;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.dt-avatar-wrapper.flex-nowrap.p-6.mt-n2.text-white.rounded-top,
+.nav-underline .nav-link.active:before, .btn-primary, .btn-primary:hover, .badge-primary, .badge-primary:hover,
+a.badge-primary:hover, a.badge-primary:focus, .form-control:focus {
+  background-color: var(--pink);
+}
+
+.bg-pink {
+  background-color: var(--pink) !important;
+}
+
+a, a:hover, 
+.nav-underline .nav-link.active, .nav-underline .nav-link:hover, .nav-underline .nav-link:focus, .nav-underline .nav-link:active,
+.nav-underline .nav-link.active:before, .btn {
+  color: var(--pink);
+}
+
+.clr-pink {
+  color: var(--pink) !important;
+}
+
+.clr-light2 {
+  background-color: var(--light);
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5,.h6,
+.dt-footer, .line, .form-control, .form-control:focus {
+  color: var(--light);
+}
+
+.clr-light {
+  color: var(--light) !important;
+}
+
+.line:before {
+  background-color: var(--dark1);
+}
+
+.dropdown-menu {
+  background-color: var(--dark1);
+}
+
+.dropdown-item {
+  color: var(--light);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--dark3);
+  color: var(--light);
+}
+
+
+.profile__banner {
+  background-color: var(--dark);
+}
+
+.profile__banner-detail:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+p.card-text > img {
+  width: 100%;
+}
+
+.dt-side-nav__link .icon, .dt-side-nav__link i {
+  margin-right: 12px;
+  width: 20px;
+  text-align: center;
+}
+
+.dt-footer {
+  background-color: var(--dark4);
+}
+
+.dt-footer > p {
+  margin: 0;
+  width: 100%;
+}
+
+.dt-footer > p.dev {
+  text-align: right;
+}
+
+.line {
+  position: relative;
+  text-transform: capitalize;
+  line-height: 1.2;
+  font-size: 1.4rem;
+}
+
+.v-align-sub {
+  vertical-align: sub;
+}
+
+.v-align-bottom {
+  vertical-align: bottom;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--dark) !important;
+}
+
+.line:before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.badge-primary,
+.badge-primary:hover,
+a.badge-primary:hover, 
+a.badge-primary:focus {
+  border-color: var(--pink);
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.form-control {
+  background-color: var(--dark4);
+  border: 1px solid var(--dark);
+}
+
+.form-control:focus {
+  border-color: var(--pink);
+}
+
+.form-control-transparent {
+  background-color: transparent;
+}
+
+.form-control-transparent:focus {
+  border: 1px solid var(--pink);
+}
+
+.form-control:focus::placeholder {
+  color: white;
+}
+
+.custom-select {
+  background-color: var(--dark4);
+  border: 1px solid var(--dark);
+}
+
+.custom-select:focus {
+  border: 1px solid var(--pink);
+}
+
+.dt-sidebar .dt-action-bar__header + .dt-action-nav {
+  margin-bottom: 2.8rem;
+  overflow-y: scroll;
+  padding-top: 0;
+}
+
+.dt-loader-container {
+  background-color: var(--dark);
+}
+
+.dt-module,
+.dt-card,
+.card {
+  background-color: var(--dark2);
+}
+
+.dt-widget__title {
+  color: var(--light);
+}
+
+.dt-card__title {
+  color: var(--light);
+}
+
+.dt-sidebar .dt-action-bar__header,
+.dt-sidebar__header {
+  background-color: var(--dark2);
+}
+
+.dt-sidebar {
+  background-color: var(--dark3);
+}
+
+.dt-drawer.dt-sidebar {
+  background-color: var(--dark3);
+}
+
+.dt-sidebar .dt-action-bar {
+  background-color: var(--dark4);
+}
+
+.dt-brand__logo-img {
+  width: 120px;
+}
+
+.dt-brand__logo {
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.dt-brand__tool .hamburger-inner {
+  margin: 0 1px;
+}
+
+.dt-brand__logo-link,
+.dt-brand__logo-symbol,
+.dt-brand__logo-img {
+  color: white;
+}
+
+a.dt-brand__logo-link > span {
+  color: var(--pink);
+}
+
+.ps .ps__rail-x:hover,
+.ps .ps__rail-y:hover,
+.ps .ps__rail-x:focus,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-x.ps--clicking,
+.ps .ps__rail-y.ps--clicking {
+  background-color: transparent;
+}
